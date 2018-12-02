@@ -10,7 +10,6 @@
     - name: Install dependencies
       apt: 
         name: "{{ item }}"
-        upgrade: true
         state: present
       with_items:
         - ca-certificates
