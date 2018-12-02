@@ -3,7 +3,7 @@ Description=threat_note procfile
 
 [Service]
 Type=simple
-ExecStart=honcho start
+ExecStart=/usr/local/bin/honcho start
 WorkingDirectory=/opt/threat_note
 Restart=on-failure
 
