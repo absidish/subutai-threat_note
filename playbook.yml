@@ -1,6 +1,6 @@
 ---
 
-- hosts: openttd
+- hosts: tn
   remote_user: root
   tasks:
     - name: Upgrade OS
